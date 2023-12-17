@@ -1,0 +1,2 @@
+export const TOKEN_APP : string = 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Indpbmdlcmxpb24uY3VscWkiLCJleHAiOjE3MDY5NDIxNjR9.j7_UICJFBvPiHv_bhnoRNprVU_DaML41Vjmd51jcRDI'
+export const API_URL : string = import.meta.env.VITE_API_URL
