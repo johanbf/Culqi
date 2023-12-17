@@ -1,4 +1,4 @@
-import {createRouter, createWebHashHistory, createWebHistory, RouteRecordRaw} from "vue-router";
+import {createRouter, createWebHashHistory,  RouteRecordRaw} from "vue-router";
 import RecargasPagosView from "../view/RecargasPagosView.vue";
 import HomeView from "../view/HomeView.vue";
 import RecargasView from "../view/RecargasView.vue";

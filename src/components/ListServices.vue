@@ -31,5 +31,7 @@
 </template>
 
 <style scoped>
-
+.text-card {
+  @apply font-roboto font-bold text-xl
+}
 </style>
