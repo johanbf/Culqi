@@ -1,19 +1,23 @@
 <script setup lang="ts">
   import CardService from "./CardService.vue";
 
+  const phone = import('../assets/svg/phone.svg')
+  const lightbulb = import('../assets/svg/lightbulb.svg')
+  const calendar = import('../assets/svg/calendar.svg')
+
   let services : Array<Services> = [
     {
-      img: '../src/assets/svg/phone.svg',
+      img: phone,
       title: 'Recargas',
       ruta: 'recargas'
     },
     {
-      img: '../src/assets/svg/lightbulb.svg',
+      img: lightbulb,
       title: 'Pago de servicios',
       ruta: 'pago-de-servicios'
     },
     {
-      img: '../src/assets/svg/calendar.svg',
+      img: calendar,
       title: 'Historial de ganancias y operaciones',
       ruta: 'historial-ganancias-operaciones'
     }

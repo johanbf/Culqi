@@ -1,5 +1,5 @@
 interface Services {
-    img: string,
+    img: any,
     title: string,
     ruta: string
 }
